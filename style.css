@@ -1,0 +1,122 @@
+/* Hanny Turjeman */
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    
+}
+
+body {
+   display: flex;
+   justify-content: center;
+   font-family: 'Rubik', sans-serif;
+
+}
+
+div.container {
+   width: 800px;
+   padding: 0;
+
+}
+
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    margin: 0;
+    padding: 0;
+    
+}
+
+header p {
+    margin: 30px 0;
+    padding: 0;
+    margin-bottom: 0;
+    font-size: 13px;
+
+} 
+
+header p a span svg {
+   display: inline;
+   margin: 0;
+   padding: 0;
+}
+
+header h2 {
+    margin-left: 40px;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+section {
+    padding: 0;
+    margin: 0;
+}
+
+ul { 
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+
+}
+@media only screen and (max-width: 723px) {
+    ul {
+  grid-template-columns: 1fr 1fr;
+    }
+}
+@media only screen and (max-width: 400px) {
+      ul {
+    grid-template-columns: 1fr;
+      }
+  }
+
+li {
+    max-width: 250px;
+}
+
+li img {
+    width: 250px;
+    height: auto;
+    transition: max-width 500ms;
+      
+}
+
+li h2 {
+    font-size: 17px;
+    color: black;
+    margin-top: 0;
+
+  
+}
+
+li h2:hover {
+  
+    color: rgb(117, 117, 117);
+    
+  
+}
+
+li p {
+    font-size: 13px;
+    color: black;
+   
+  
+}
+
+li p:hover {
+   font-weight: bold;
+  
+}
+
+li a {
+    text-decoration: none;
+}
+
+
+
+
